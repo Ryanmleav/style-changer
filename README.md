@@ -471,7 +471,7 @@ export default class TextContainer extends Component {
     this.state = {
       text: ''
     }
-    this.updateText = this.updateText.bind(this)
+    this.updateText = this.updateText.bind(this);
   }
 
   updateText(e) {
